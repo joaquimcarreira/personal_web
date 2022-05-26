@@ -20,7 +20,7 @@ export default function Intro() {
                 <div className="wrapper">
                     <h2>Hi there, im</h2>
                     <h1>Joaquim</h1>
-                    <h3 >Freelance <span ref={textRef}></span> </h3>
+                    <h3 >Industrial Engineer working with data</h3>
                     <a href="#portfolio">
                         <ArrowDownwardSharp className='arrow'></ArrowDownwardSharp>
                     </a>
