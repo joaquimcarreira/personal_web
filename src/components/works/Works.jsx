@@ -8,7 +8,14 @@ export default function Works() {
             </div>
             <div className="right">
                 <h2>About.</h2>
-                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi unde delectus fugit, velit quos nemo quidem deserunt assumenda dolorem ipsam dignissimos iusto soluta aperiam quisquam perspiciatis asperiores consequuntur provident?</h4>
+                <h4>Engineer from the Technological University of Buenos Aires.
+                    Electromechanical technician from Leon XIII school.
+                </h4>
+                <h4>Trying to understand the world through data and mathematics.
+                </h4>
+                <h4>
+                    Lover of science fiction books. Frustrated professional tennis player.
+                </h4>
             </div>
         </div>
     )

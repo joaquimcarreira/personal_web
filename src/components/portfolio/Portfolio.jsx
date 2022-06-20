@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import "./portfolio.scss"
+import movieImg from "./../../imgs/movie.jpg"
+import finImg from "./../../imgs/financial.png"
+import supImg from "./../../imgs/supermarket.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Movie from './projects/movie';
 
@@ -20,17 +23,16 @@ export default function Portfolio() {
                     <div onClick={e => e.stopPropagation()}>
                         <Movie props={{ show, handleClose, handleShow }}></Movie>
                     </div>
-
                     <h3>Movie industry</h3>
-                    <img src="" alt="" />
+                    <img src={movieImg} alt="" />
                 </div>
                 <div className="item">
                     <h3>Financial Dashboard</h3>
-                    <img src="personal_web/personal_web/public/assets/financial.png" alt="" />
+                    <img src={finImg} alt="" />
                 </div>
                 <div className="item">
                     <h3>Supermarket scrapper</h3>
-                    <img src="" alt="" />
+                    <img src={supImg} alt="" />
                 </div>
                 <div className="item">
                     <img src="" alt="" />
